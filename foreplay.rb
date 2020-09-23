@@ -2,16 +2,16 @@
 class Foreplay < Formula
   desc "Software to manage Git pre-commit hooks."
   homepage "https://github.com/eberkund/foreplay"
-  version "0.4.0"
+  version "0.4.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/eberkund/foreplay/releases/download/v0.4.0/foreplay_0.4.0_darwin_amd64.zip"
-    sha256 "2ffa897ea86dc5dc2905526bc7283aa70f41bbf8f59dcb2abc52c51656485753"
+    url "https://github.com/eberkund/foreplay/releases/download/v0.4.1/foreplay_0.4.1_darwin_amd64.zip"
+    sha256 "d156f2cff47397a92000f59dce82fc2ebb64eb43cc839a5cb65c2f13f43c1045"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/eberkund/foreplay/releases/download/v0.4.0/foreplay_0.4.0_linux_amd64.zip"
-      sha256 "365bab4d2b7ec2ac04946370b4c9249942818b7b3e96f2907d1cd5bec6047552"
+      url "https://github.com/eberkund/foreplay/releases/download/v0.4.1/foreplay_0.4.1_linux_amd64.zip"
+      sha256 "a4564cbd7576307c7f7c2be366dbfe67f4ef28cdb5f8fdcb283308b8e32f5244"
     end
   end
 
