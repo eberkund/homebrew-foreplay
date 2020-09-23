@@ -7,11 +7,11 @@ class Foreplay < Formula
 
   if OS.mac?
     url "https://github.com/eberkund/foreplay/releases/download/v0.4.0/foreplay_0.4.0_darwin_amd64.zip"
-    sha256 "c9756e42ff0d8fe1dcd80f48be68891e5d3a9918ee6d41e2e1cc360929c391ac"
+    sha256 "2ffa897ea86dc5dc2905526bc7283aa70f41bbf8f59dcb2abc52c51656485753"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/eberkund/foreplay/releases/download/v0.4.0/foreplay_0.4.0_linux_amd64.zip"
-      sha256 "5d9d6679d7c811357ba9b6661e82fe3b91caf372effe5d4503de3849396ecd24"
+      sha256 "365bab4d2b7ec2ac04946370b4c9249942818b7b3e96f2907d1cd5bec6047552"
     end
   end
 
